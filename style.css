@@ -1,3 +1,6 @@
+body{
+    position: relative;
+}
 .nav-item {
     padding-right: 10px;
     font-size: 17px;
@@ -37,3 +40,28 @@
    
 }
 /* ========navbar end========= */
+.fixed{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(249, 248, 247);
+    border: none;
+    position: fixed;
+    bottom: 0px;
+    right: 10%;
+    border-radius: 20px;
+}
+.fixed:hover{
+    border: 2px solid #0b3a85;
+}
+abbr{
+    text-decoration: none;
+}
+/* =========footter======== */
+.fa-brands{
+   font-size: 30px; 
+   color: #45ac4c;
+}
+.fa-brands:hover{
+    color: #156dd1;
+}
+
