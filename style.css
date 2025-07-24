@@ -1,0 +1,39 @@
+.nav-item {
+    padding-right: 10px;
+    font-size: 17px;
+    font-weight: 500px;
+    
+}
+
+.navbutton {
+    background-color: #0b3a85;
+    color: #ffff;
+    font-weight: 500px;
+}
+
+.navbutton:hover {
+    background-color: #45ac4c;
+    border: 2px solid #45ac4c;
+    color: #ffff;
+}
+.nav-item>a{
+    color: black !important;
+}
+.nav-item>a:hover {
+    text-decoration: 2px underline #45ac4c;
+}
+.toggl{
+    color: black !important;
+    /* background-color: black !important; */
+}
+@media only screen and (max-width:983px) {
+    .coleps-nav-item>li {
+        margin: 0px auto;
+    }
+
+    .navbutton {
+        margin: 0px auto;
+    }
+   
+}
+/* ========navbar end========= */
